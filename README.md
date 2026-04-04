@@ -3,6 +3,7 @@ The purpose of this repository is to investigate which of four machine learning 
 We tested four machine learning models: Logistic Regression, Linear Discriminant Analysis (LDA), Naive Bayes and Neural Networks. 
 
 The dataset was obtained from Kaggle, and was already preprocessed and ready for use. Link to dataset: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/data
+
 There are three different files in the dataset, each with 22 columns total and 21 feature columns. We have used the second file, which has 70,692 records where the data is evenly split in the diabetes response column between no diabetes, which is denoted as 0, or having prediabetes or diabetes, which is denoted as 1.
 
 The dataset contains 70,692 records with 21 features capturing health indicators, demographics, and lifestyle information. The target variable is Diabetes_binary, a binary indicator where 0 represents no diabetes and 1 represents prediabetes or diabetes. Features include 14 binary variables (high blood pressure, cholesterol, smoking status), 3 ordinal variables (age group, education level, income), and 1 continuous variable (BMI). No missing values remain after preprocessing, and BMI outliers were capped to ensure data quality. Initial insights revealed that roughly 30% of participants have high blood pressure, the average BMI is around 30, and the majority of participants fall within the 45–65 age range. We validated that the dataset is balanced, with 50% of individuals classified as diabetic/prediabetic.
