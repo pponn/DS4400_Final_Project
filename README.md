@@ -12,4 +12,5 @@ Feature normalization methodology included scaling the BMI column, since this is
 Some specific packages we used included pandas, NumPy for data manipulation, scikit-learn for model implementation, preprocessing, train/test splitting, and Matplotlib and Seaborn for visualizations. We evaluated models using accuracy, precision, recall, F1-score and confusion matrices as applicable. Recall will be especially useful in this medical context, as minimizing false negatives, patients with diabetes who are incorrectly predicted as healthy, is critical. 
 
 Each file in this repository is a different machine learning model or the dataset feature normalization preparation, as denoted by the file name. 
+The DatasetExploration file is where we did some of our dataset exploration and analysis.
 We have also included graphs in each file displaying the overall results of each model's ability to predict relative to one another as well as graphs showing the contribution of each feature to diabetes or no diabetes based on results from each model. 
